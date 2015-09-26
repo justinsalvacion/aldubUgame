@@ -1,0 +1,55 @@
+	// a - almost perfect!
+	{
+		canvas:document.getElementById("canvas_1"),
+		player:{ x:145, y:150},
+		door:{ x:142, y:100},
+		key:{ x:10, y:50},
+		circles: [
+			{x:75,y:75,radius:57.5}
+		],
+		countdown:100
+	},
+
+
+		// l
+	{
+		canvas:document.getElementById("canvas_2"),
+		player:{ x:75, y:87.5 },
+		door:{ x:75, y:37.5 },
+		key:{ x:75, y:137.5},
+		circles: [
+			{x:0,y:75,radius:50},
+			{x:150,y:75,radius:50}
+		],
+		countdown:100
+	},
+
+		// d - almost perfect!
+	{
+		canvas:document.getElementById("canvas_3"),
+		player:{ x:145, y:10},
+		door:{ x:142, y:30},
+		key:{ x:20, y:120},
+		circles: [
+			{x:75,y:-10,radius:57.5},
+			{x:75,y:100,radius:40}
+		],
+		countdown:100
+	},
+
+	// HEART (U)
+	{
+		canvas:document.getElementById("canvas_4"),
+		player:{ x:75, y:125 },
+		door:{ x:75, y:124.5 },
+		key:{ x:75, y:37.5 },
+		circles: [
+			{x:50,y:50,radius:25},
+			{x:100,y:50,radius:25},
+			{x:37.5,y:50,radius:5,invisible:true},
+			{x:0,y:150,radius:72.5},
+			{x:150,y:150,radius:72.5}
+		],
+		// SUPER HACK - for level 2, change timer so it's impossible to beat if you go BACKWARDS.
+		countdown: 200
+	},
